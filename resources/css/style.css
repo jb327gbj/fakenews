@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  display: flex;
+  border: thin solid black;
+  padding: 5px;
+  font-size: 14px;
+  font-family: verdana;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.Logo  {
+display: flex;
+height: auto;
+
+}
+
+.logo p {
+  color: mediumAquamarine;
+  display: inline-block;
+  margin: 0px;
+  align-items: center;
+}
+
+  nav {
+  display: inline-block;
+  position: static;
+  padding-right: 11px;
+}
+
+nav span {
+  text-decoration: underline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
