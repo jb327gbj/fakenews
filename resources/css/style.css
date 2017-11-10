@@ -20,8 +20,7 @@ header {
 
 .Logo  {
 display: flex;
-height: auto;
-
+align-items: center;
 }
 
 .logo p {
